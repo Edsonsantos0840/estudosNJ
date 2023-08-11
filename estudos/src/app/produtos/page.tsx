@@ -13,12 +13,12 @@ export default async  function Produtos<t>({params}:{
 }) {
   const produto = await produtosId()
   return (
-    <div className="container">
+    <div >
       <h1>Produtos</h1>
       <div className={style.link}>
       <Link href={`/produtos/${params.id+1}`} >Próximo</Link>
       </div>
-      <div>
+      <div className={style.cont}>
          {
           produto.map(({id, title, url}:{
             id: string |number,

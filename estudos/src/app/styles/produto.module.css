@@ -1,3 +1,29 @@
+.cont{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+  }
+  .cont h1{
+    text-transform: uppercase;
+    margin: 0.5rem;
+      font-weight: 600;
+      font-size: 1rem;
+      text-align: center;
+  }
+  .cont p{
+    margin: 0.5rem;
+      font-size: .8rem;
+      text-align: center;
+  }
+  .cont a{
+   width: 400px;
+   height:auto;
+  }
+  .cont div img{
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #0000008a;
+  }
 .link{
     display: flex;
     justify-content: space-between;
