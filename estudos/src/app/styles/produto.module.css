@@ -1,0 +1,10 @@
+.link{
+    display: flex;
+    justify-content: space-between;
+}
+.link a{
+    background-color: rgb(41, 41, 41);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+}

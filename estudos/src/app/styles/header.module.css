@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+    color: aliceblue;
+    height: 80px;
+}
+.container h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.container .inp{
+    display: flex;
+}
+.container button:hover{
+background-color: rgb(64, 64, 64);
+color: rgb(255, 255, 255);
+padding: 10px;
+}
+.container button{
+background-color: rgb(167, 167, 167);
+color: rgb(23, 23, 23);
+padding: 10px;
+}
+.container nav {
+    display: flex;
+    gap: 30px;
+}
+.container nav a:hover{
+    background-color: rgb(237, 237, 237);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    }
